@@ -1,5 +1,19 @@
 Welcome to Python training 2.0
 
+By now you have completed Words, Numbers and Lists and have a lot of cool Python knowledge.
+
+Now you want to take those skills and dive into some practical data cleansing that you could apply directly to client projects.
 
 To get started:
 Set up your virtual environment (if you haven't already in words_numbers_and_lists)
+
+What you will learn:
+  Data types and conversions
+  Missing data handling
+  String manipulation and regular expressions
+  Duplicate data identification and removal
+  Handling inconsistent data
+  Merging and joining data
+  Filtering and indexing
+  Data aggregation and grouping
+  Basic data quality checks
