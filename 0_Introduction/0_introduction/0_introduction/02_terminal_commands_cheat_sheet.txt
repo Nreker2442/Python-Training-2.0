@@ -1,0 +1,38 @@
+Cd (Change directory into your project folder)
+$ cd
+$ cd Desktop
+$ cd Python-Training-2.0
+
+Print working directory
+$ pwd
+
+List Files
+$ ls
+
+Go back a directory (if needed)
+$ cd ..
+
+Open VS Code (don't forget the period)
+Might as well install whatever it asks
+$ code .
+
+Installing the virtual environment (Once when you create)
+$ virtualenv -p python3 venv
+
+Activate your virtual Environment (Everytime you begin development)
+VS Code this automatically
+$ . venv/bin/activate
+**FOR WINDOWS MACHINES:  
+$ .\venv\Scripts\Activate
+
+Installing numpy package
+$ pip install numpy
+
+Installing pandas package
+$ pip install pandas
+
+Running hello world
+$ python hello_world.py
+
+Deactivate your virtual Environment
+$ deactivate
