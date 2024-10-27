@@ -27,5 +27,9 @@ Install numpy package
 Install pandas package
   $ pip install pandas
 
+Note: You will probably be prompted to select a kernel when you run your first code block, install if needed
+
 Deactivate your virtual Environment
   $ deactivate
+
+You will be prompted to select a kernel when you run your first code block, install if needed
