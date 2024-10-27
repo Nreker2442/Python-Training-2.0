@@ -1,0 +1,5 @@
+Welcome to Python training 2.0
+
+
+To get started:
+Set up your virtual environment (if you haven't already in words_numbers_and_lists)
