@@ -1,0 +1,27 @@
+Create a Kaggle account, or login to your account
+
+Generate an API Token
+    Go to account settings
+    Scroll down to "API" secion
+    Create New API Token
+
+Place the kaggle.json file in the ~/.kaggle/ directory on Mac or %USERPROFILE%\.kaggle\ on Windows
+    Create the .kaggle directory if needed
+
+Install the Kaggle API package
+    Terminal command:
+    $ pip install kaggle
+
+Go to Kaggle directory
+    $ cd .kaggle
+
+Grant permissions to download from Kaggle via the API
+    $ icacls kaggle.json /inheritance:r /grant:r "%USERNAME%:(F)"
+
+Download the dataset
+    $ kaggle datasets download -d mashlyn/online-retail-ii-uci
+
+Unzip the file
+    $ tar -xf online-retail-ii-uci.zip
+
+Load the data into the Python environment (go to next file)

@@ -6,7 +6,6 @@ Create New File
 Open Terminal:
   Change directory into your project folder
   $ cd
-  $ cd Desktop
   $ cd project_folder
 
   OR create new project folder and change directory into your new project folder
